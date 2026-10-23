@@ -1,0 +1,17 @@
+torch>=2.4
+torchvision
+timm==1.0.11
+numpy
+pandas
+scipy
+scikit-learn
+pydicom
+pylibjpeg
+pylibjpeg-libjpeg
+pylibjpeg-openjpeg
+python-gdcm
+safetensors
+tqdm
+matplotlib
+kaggle>=1.6
+# labels only: vllm==0.10.1.1 transformers==4.55.2 (Colab pins, see labels/LABEL_LEDGER.md)

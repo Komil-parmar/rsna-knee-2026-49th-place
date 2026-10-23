@@ -1,0 +1,32 @@
+{
+  "id": "komilparmar/rsna-a1-s89c-v14-4grp",
+  "title": "rsna-a1-s89c-v14-4grp",
+  "code_file": "rsna-a1-s89c-v14-4grp.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "komilparmar/rsna-code-v10",
+    "komilparmar/rsna-dicom-decoders",
+    "komilparmar/rsna-lowres-payload",
+    "komilparmar/rsna-timm-1011"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "model_sources": [
+    "komilparmar/rsna-camp-v14-a57/pyTorch/v1/1",
+    "komilparmar/rsna-camp-v14-4a0c/pyTorch/v1/1",
+    "komilparmar/rsna-camp-v14-a57s2000/pyTorch/v1/1",
+    "komilparmar/rsna-camp-v14-8bd0/pyTorch/v1/1"
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaTeslaT4"
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.npz
+*.npy
+*.pt
+*.safetensors
+*.tar
+*.zip
+.kaggle/
+kaggle.json
+inference/kernels/
+inference/public/
+.DS_Store
